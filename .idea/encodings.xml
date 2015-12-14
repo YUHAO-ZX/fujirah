@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/baoxian/baoxianxbc-ju-bzj-client/1.0.6/baoxianxbc-ju-bzj-client-1.0.6-sources.jar!/com/taobao/baoxian/xbc/ju/bzj/service/JuBzjInsuranceService.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/hsf/hsf.app.spring/1.4.9.2/hsf.app.spring-1.4.9.2-sources.jar!/com/taobao/hsf/app/spring/util/HSFSpringProviderBean.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/huijin/hjgateway-client/0.4.79/hjgateway-client-0.4.79-sources.jar!/com/taobao/huijin/gateway/client/ICommissionService.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/ju/ju-common-base/1.0.3/ju-common-base-1.0.3-sources.jar!/com/taobao/ju/common/dal/dataobject/BaseDO.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/ju/juitemcenter-client/1.1.47/juitemcenter-client-1.1.47-sources.jar!/com/taobao/ju/extendsfield/constant/ExtendsFieldConstants.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/ju/juitemcenter-client/1.1.47/juitemcenter-client-1.1.47-sources.jar!/com/taobao/ju/item/constant/ItemStatusConstant.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/ju/juitemcenter-client/1.1.47/juitemcenter-client-1.1.47-sources.jar!/com/taobao/ju/item/query/ItemOnlineDetailQueryTO.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/ju/juitemcenter-client/1.1.47/juitemcenter-client-1.1.47-sources.jar!/com/taobao/ju/item/service/JuItemService.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/tddl/tddl-group-datasource/2.4.4.3/tddl-group-datasource-2.4.4.3-sources.jar!/com/taobao/tddl/jdbc/group/TGroupConnection.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/tmall/neo/share/presale/presale-common/1.0.3-SNAPSHOT/presale-common-1.0.3-20131231.022319-8-sources.jar!/com/tmall/neo/presale/item/interfaces/constant/PresaleItemConstant.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/tmall/neo/share/presale/presale-common/1.0.3-SNAPSHOT/presale-common-1.0.3-20131231.022319-8-sources.jar!/com/tmall/neo/presale/item/interfaces/entity/PresaleItemDO.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/tmall/neo/share/presale/presale-common/1.0.3-SNAPSHOT/presale-common-1.0.3-20131231.022319-8-sources.jar!/com/tmall/neo/presale/item/interfaces/enums/PresaleItemStatus.java" charset="GBK" />
+  </component>
+</project>
+

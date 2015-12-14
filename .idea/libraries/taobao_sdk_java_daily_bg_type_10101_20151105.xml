@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="taobao-sdk-java-daily_bg_type_10101-20151105">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lb/taobao-sdk-java-daily_bg_type_10101-20151105.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/lb/taobao-sdk-java-daily_bg_type_10101-20151105-source.jar!/" />
+    </SOURCES>
+  </library>
+</component>

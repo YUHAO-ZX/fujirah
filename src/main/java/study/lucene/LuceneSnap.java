@@ -29,7 +29,7 @@ public class LuceneSnap{
             File f = new File("d:/itxxz/data");
             for (File file : f.listFiles()) {
                 System.out.println("as:" + file.getName());
-
+                System.out.println("test git");
                 document = new Document();
                 document.add(new LongField("modified", f.lastModified(),
                         Field.Store.NO));

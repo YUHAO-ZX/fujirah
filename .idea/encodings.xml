@@ -13,6 +13,7 @@
     <file url="jar://$MAVEN_REPOSITORY$/com/tmall/neo/share/presale/presale-common/1.0.3-SNAPSHOT/presale-common-1.0.3-20131231.022319-8-sources.jar!/com/tmall/neo/presale/item/interfaces/constant/PresaleItemConstant.java" charset="GBK" />
     <file url="jar://$MAVEN_REPOSITORY$/com/tmall/neo/share/presale/presale-common/1.0.3-SNAPSHOT/presale-common-1.0.3-20131231.022319-8-sources.jar!/com/tmall/neo/presale/item/interfaces/entity/PresaleItemDO.java" charset="GBK" />
     <file url="jar://$MAVEN_REPOSITORY$/com/tmall/neo/share/presale/presale-common/1.0.3-SNAPSHOT/presale-common-1.0.3-20131231.022319-8-sources.jar!/com/tmall/neo/presale/item/interfaces/enums/PresaleItemStatus.java" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/tmall/neo/share/presale/presale-common/1.0.3-SNAPSHOT/presale-common-1.0.3-20131231.022319-8-sources.jar!/com/tmall/neo/presale/item/interfaces/util/PresaleDeliverSetting.java" charset="GBK" />
   </component>
 </project>
 

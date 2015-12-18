@@ -1,25 +1,5 @@
 package com.woom;
-
-import com.alibaba.fastjson.JSONArray;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.MapDifference;
-import com.google.common.collect.Maps;
-import com.taobao.api.ApiException;
-import com.taobao.api.DefaultTaobaoClient;
-import com.taobao.api.TaobaoClient;
-import com.taobao.api.domain.TeMinisiteAddTo;
-import com.taobao.api.request.AlibabaMeilihuiActivityAddRequest;
-import com.taobao.api.response.AlibabaMeilihuiActivityAddResponse;
-import com.woom.tools.GroovyContiner;
-import com.woom.tools.GroovyTest;
-import org.codehaus.groovy.runtime.DefaultGroovyMethods;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.net.URL;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
 
 /**
  * Created by yuhao.zx on 15-9-14.

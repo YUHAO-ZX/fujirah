@@ -1,9 +1,34 @@
 package com.woom;
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import com.google.common.eventbus.AsyncEventBus;
+import com.google.common.eventbus.EventBus;
+import com.google.common.eventbus.Subscribe;
+import org.joda.time.DateTime;
+
+import java.math.BigDecimal;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.*;
 
 /**
  * Created by yuhao.zx on 15-9-14.
  */
+ class NULL {
+
+    public static void haha(){
+        System.out.println("haha");
+    }
+    public static void main(String[] args) {
+        ((NULL)null).haha();
+    }
+
+}
 public class Test {
     public static String remove0156OfAliPayId(String accountNO){
 
@@ -14,9 +39,145 @@ public class Test {
 
     }
 
-    public static void main(String[] args) throws ParseException {
-        final Long a = 0L;
-        System.out.println(a == 0);
+    public static Double keep2point(Double d){
+        if(null == d){
+            return null;
+        }
+        BigDecimal b   =   new   BigDecimal(d);
+        return b.setScale(2,BigDecimal.ROUND_HALF_UP).doubleValue();
+    }
+
+    @Subscribe
+    public void test(Integer msId){
+//        try {
+//            Thread.sleep(10);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+        System.out.println("msIs="+msId+":"+Thread.currentThread().getId()+","+Thread.currentThread().getName());
+    }
+
+    public static void main(String[] args) throws ParseException, InterruptedException {
+
+        System.out.println("asdfas".split(",")[0]);
+//        Map<String,Long> supp = new HashMap<String, Long>();
+//        supp.put("m1",4L);
+//        supp.put("m3",4L);
+//        supp.put("m2",4L);
+//
+//
+//
+//        String  supName = "";
+//        Map<String,Integer> repeat = new HashMap<String, Integer>();
+//        for(int i = 1 ; i <= 5 ; i++){
+//            boolean isFind = false;
+//            Long maxValue = -1L;
+//            for(String ele : supp.keySet()){
+//                Long value = supp.get(ele);
+//                if(value > maxValue && repeat.get(ele) == null){
+//                    isFind = true;
+//                    maxValue = value;
+//                    supName = ele;
+//                    repeat.put(ele,1);
+//                }
+//            }
+//            if(!isFind)
+//                break;
+//            System.out.println("supplier_name_"+i+"--"+supName);
+//            System.out.println("supplier_items_"+i+"--"+maxValue);
+//        }
+
+//        System.out.println(0L/100);
+//        System.out.println("方漫".getBytes().length);
+//        Calendar c = Calendar.getInstance();
+//        c.setTime(new Date());
+//        c.add(Calendar.DAY_OF_MONTH,-1);
+//        c.getTime();
+
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+//        String s = "2016-01-21 00:11:44";
+//        if(sdf.format(sdf.parse(s)).equals(sdf.format(new Date()))){
+//            System.out.println("ok");
+//        }else{
+//            System.out.println("no");
+//        }
+//        ExecutorService service = Executors.newFixedThreadPool(2);
+//        for (int i = 0; i < 6; i++) {
+//            final int index = i;
+//            System.out.println("task: " + (i+1));
+//            Runnable run = new Runnable() {
+//                @Override
+//                public void run() {
+//                    System.out.println("thread start" + index);
+//                    try {
+//                        Thread.sleep(Long.MAX_VALUE);
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                    System.out.println("thread end" + index);
+//                }
+//            };
+//            service.execute(run);
+//        }
+//        Executor executor = Executors.newFixedThreadPool(20);
+//        EventBus eventBus = new AsyncEventBus(executor);
+//        eventBus.register(new Test());
+//        System.out.println(":"+Thread.currentThread().getId()+","+Thread.currentThread().getName());
+//        for(int i=0;i<1000;i++){
+//            eventBus.post(i);
+//        }
+
+
+//        Double d = 199741344.1541235d;
+//        System.out.println(Math.round(d));
+//        System.out.println("fasd".equals(null));
+//        Date nowDate = new DateTime().plusHours(24).toDate();
+//        SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:ss:mm");
+//        System.out.println(sd.format(nowDate));
+
+
+//        BigDecimal b = new BigDecimal(123.3);
+//        BigDecimal c = new BigDecimal(100);
+//        System.out.println(b.divide(c).doubleValue());
+//        System.out.println(Long.valueOf("0.02"));
+//        System.out.println(0.05 + 0.01);
+//        System.out.println(1.0 - 0.42);
+//        System.out.println(4.015 * 100);
+//        System.out.println(123.3 / 100);
+//        String[] strs = "sdf:".split(":");
+//        System.out.println(strs[0]);
+//        System.out.println(strs[1]);
+//        System.out.println(keep2point(23123.12312312));
+//        SimpleDateFormat s = new SimpleDateFormat("yyyyMMdd");
+//        Calendar c = Calendar.getInstance();
+//        c.setTime(new Date());
+//        c.add(Calendar.DAY_OF_MONTH,-1);
+//        System.out.println(s.format(c.getTime()));
+//        BigDecimal bd = new BigDecimal(4596);
+//        bd.divide(new BigDecimal(100));
+//        System.out.println(bd.movePointLeft(2).doubleValue());
+//        LoadingCache<Long, String> cahceBuilder = CacheBuilder
+//                .newBuilder()
+//                .refreshAfterWrite(60, TimeUnit.SECONDS)
+//                .build(new CacheLoader<Long, String>(){
+//                    @Override
+//                    public String load(Long activityId) throws Exception {
+//                        return null;
+//                    }
+//                });
+//        try {
+//            String a = cahceBuilder.get(1L);
+//        } catch (ExecutionException e) {
+//            e.printStackTrace();
+//        } catch (Throwable t){
+//            t.printStackTrace();
+//        }
+//        Long a = 1000L;
+//        Long b = a ;
+//        a = 999L;
+//        System.out.println(b);
+//        final Long a = 0L;
+//        System.out.println(a == 0);
 
 //        ApplicationContext context =
 //                new ClassPathXmlApplicationContext("classpath*:/test/groovy.xml");

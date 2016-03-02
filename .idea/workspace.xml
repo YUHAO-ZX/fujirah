@@ -105,19 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="837">
+            <state line="24" column="4" selection-start="842" selection-end="842" vertical-scroll-proportion="-0.3548387" vertical-offset="945" max-vertical-offset="1782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Test1.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="837">
+            <state line="17" column="36" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,7 +164,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="7956" max-vertical-offset="9720">
+            <state line="309" column="4" selection-start="11090" selection-end="12622" vertical-scroll-proportion="0.0" vertical-offset="7875" max-vertical-offset="9720">
               <folding />
             </state>
           </provider>
@@ -173,7 +173,7 @@
       <file leaf-file-name="dev-filter.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis/src/main/filter/dev-filter.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="10" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="567">
+            <state line="9" column="10" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
               <folding />
             </state>
           </provider>
@@ -247,8 +247,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/woom/Test.java" />
         <option value="$PROJECT_DIR$/src/main/filter/dev-filter.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/woom/Test1.java" />
-        <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis/src/main/java/tools/Test1.java" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
       </list>
     </option>
   </component>
@@ -337,6 +337,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Beau" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1134,12 +1138,12 @@
       <workItem from="1456238150123" duration="1291000" />
       <workItem from="1456368709597" duration="1914000" />
       <workItem from="1456629891545" duration="6519000" />
-      <workItem from="1456922301652" duration="526000" />
+      <workItem from="1456922301652" duration="1453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277531000" />
+    <option name="totallyTimeSpent" value="278458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="112" y="-1071" width="1779" height="1019" extended-state="0" />
@@ -1479,9 +1483,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="7956" max-vertical-offset="9720">
+        <state line="309" column="4" selection-start="11090" selection-end="12622" vertical-scroll-proportion="0.0" vertical-offset="7875" max-vertical-offset="9720">
           <folding />
         </state>
       </provider>
@@ -1495,17 +1508,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="837">
+        <state line="24" column="4" selection-start="842" selection-end="842" vertical-scroll-proportion="-0.3548387" vertical-offset="945" max-vertical-offset="1782">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="837">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

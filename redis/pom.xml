@@ -22,7 +22,7 @@
             <version>2.7.3</version>
         </dependency>
     </dependencies>
-    
+
     <build>
         <!--生效需要下面的配置-->
         <filters>

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: yuhao.zx
+Class-Path: jedis-2.7.3.jar commons-pool2-2.3.jar spring-context-4.0.3
+ .RELEASE.jar spring-aop-4.0.3.RELEASE.jar aopalliance-1.0.jar spring-
+ beans-4.0.3.RELEASE.jar spring-core-4.0.3.RELEASE.jar commons-logging
+ -1.1.3.jar spring-expression-4.0.3.RELEASE.jar aspectjrt-1.7.3.jar as
+ pectjweaver-1.7.3.jar cglib-nodep-2.2.2.jar cglib-full-2.0.1.jar spri
+ ng-webmvc-4.0.3.RELEASE.jar spring-web-4.0.3.RELEASE.jar spring-test-
+ 4.0.3.RELEASE.jar slf4j-api-1.7.6.jar logback-core-1.1.1.jar logback-
+ classic-1.1.1.jar mybatis-spring-1.1.1.jar spring-tx-3.1.1.RELEASE.ja
+ r mybatis-3.2.6.jar spring-jdbc-4.0.3.RELEASE.jar mysql-connector-jav
+ a-5.1.30.jar commons-dbcp-1.4.jar commons-pool-1.5.4.jar jsoup-1.7.3.
+ jar rhino-1.7R4.jar mybatis-generator-core-1.3.2.jar httpunit-1.7.2.j
+ ar js-1.6R5.jar junit-4.10.jar hamcrest-core-1.1.jar nekohtml-0.9.5.j
+ ar servlet-api-2.4.jar jtidy-r938.jar xercesImpl-2.6.1.jar xmlParserA
+ PIs-2.6.1.jar guava-18.0.jar joda-time-2.6.jar fastjson-1.1.30.jar js
+ qlparser-0.8.0.jar lucene-core-5.3.1.jar lucene-analyzers-common-5.0.
+ 0.jar lucene-queryparser-5.3.1.jar lucene-queries-5.3.1.jar lucene-sa
+ ndbox-5.3.1.jar
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_45
+Main-Class: tools.Test1
+

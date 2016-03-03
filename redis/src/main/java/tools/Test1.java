@@ -19,6 +19,6 @@ public class Test1 {
         Jedis jedis = new Jedis("localhost");//查看服务是否运行
         System.out.println("Server is running: "+jedis.ping());
         jedis.set("key","value1");
-        System.out.println("Stored string in redis:: "+ jedis.get("w3ckey"));
+        System.out.println("Stored string in redis:: "+ jedis.get("key"));
     }
 }

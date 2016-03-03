@@ -22,7 +22,7 @@ public class Test1 {
             case 2:testList();break;
             case 3:testSet();break;
             case 4:testTime();break;
-            case 5:;break;
+            case 5:testPool();break;
             case 6:;break;
             case 7:;break;
             case 8:;break;
@@ -31,10 +31,6 @@ public class Test1 {
             case 11:;break;
             default:break;
         }
-        Jedis jedis = new Jedis("localhost");//查看服务是否运行
-        System.out.println("Server is running: "+jedis.ping());
-        jedis.set("key","value1");
-        System.out.println("Stored string in redis:: "+ jedis.get("key"));
     }
 
     public static void testMap(){
@@ -59,7 +55,7 @@ public class Test1 {
     public static void testSet(){
         jedis.del("user");
         jedis.sadd("user","ele1");
-        jedis.sadd("user","ele5");
+        jedis.sadd("user","ele1");
         jedis.sadd("user","ele2");
         jedis.sadd("user","ele3");
         jedis.sadd("user","ele4");
@@ -75,5 +71,29 @@ public class Test1 {
         System.out.println("cost="+(System.currentTimeMillis()-time));
         System.out.println(jedis.lrange("time",0,-1));
         jedis.del("time");
+    }
+    public static void testPool(){
+        Jedis f = RedisUtils.getJedis();
+        for(int i = 0 ;i<= 10;i++){
+            Thread d = new Thread(new Runnable() {
+                public void run() {
+                    Jedis f = RedisUtils.getJedis();
+                    Long time = System.currentTimeMillis();
+                    f.del("time");
+                    for(int i= 0 ;i< 500;i++){
+                        f.lpush("time","time"+i);
+                    }
+                    System.out.println(Thread.currentThread().getId()+"cost="+(System.currentTimeMillis()-time));
+                    System.out.println(jedis.lrange("time",0,-1));
+                }
+            });
+            d.start();
+        }
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        f.del("time");
     }
 }

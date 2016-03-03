@@ -58,7 +58,7 @@ public class Test1 {
     }
     public static void testSet(){
         jedis.sadd("user","ele1");
-        jedis.sadd("user","ele1");
+        jedis.sadd("user","ele5");
         jedis.sadd("user","ele2");
         jedis.sadd("user","ele3");
         jedis.sadd("user","ele4");

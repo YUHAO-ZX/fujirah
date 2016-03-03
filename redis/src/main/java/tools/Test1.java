@@ -57,6 +57,7 @@ public class Test1 {
         System.out.println(jedis.lrange("mylist",0,-1));
     }
     public static void testSet(){
+        jedis.del("user");
         jedis.sadd("user","ele1");
         jedis.sadd("user","ele5");
         jedis.sadd("user","ele2");

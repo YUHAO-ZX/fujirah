@@ -74,12 +74,12 @@ public class Test1 {
     }
     public static void testPool(){
         Jedis f = RedisUtils.getJedis();
+        f.del("time");
         for(int i = 0 ;i<= 10;i++){
             Thread d = new Thread(new Runnable() {
                 public void run() {
                     Jedis f = RedisUtils.getJedis();
                     Long time = System.currentTimeMillis();
-                    f.del("time");
                     for(int i= 0 ;i< 500;i++){
                         f.lpush("time","time"+i);
                     }

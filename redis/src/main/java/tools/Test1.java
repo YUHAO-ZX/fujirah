@@ -84,7 +84,7 @@ public class Test1 {
                         f.lpush("time","time"+i);
                     }
                     System.out.println(Thread.currentThread().getId()+"cost="+(System.currentTimeMillis()-time));
-                    System.out.println(jedis.lrange("time",0,-1));
+                    System.out.println(f.lrange("time",0,-1));
                     RedisUtils.returnResource(f);
                 }
             });

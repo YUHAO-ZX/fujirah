@@ -73,6 +73,7 @@ public class Test1 {
             jedis.lpush("time","time"+i);
         }
         System.out.println("cost="+(System.currentTimeMillis()-time));
+        System.out.println(jedis.lrange("time",0,-1));
         jedis.del("time");
     }
 }

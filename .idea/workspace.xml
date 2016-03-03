@@ -129,10 +129,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LuceneSnap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/study/lucene/LuceneSnap.java">
+      <file leaf-file-name="Test1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="42" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
+            <state line="87" column="49" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.0" vertical-offset="1880" max-vertical-offset="2862">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#995#1011#0" expanded="true" />
+                <element signature="e#2446#2993#0" expanded="true" />
+                <element signature="e#2978#2979#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisUtils.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/RedisUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="26" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.65870786" vertical-offset="1529" max-vertical-offset="2241">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pool.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3-sources.jar!/redis/clients/util/Pool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="14" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4158">
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
@@ -140,27 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/Test1.java">
+      <file leaf-file-name="GenericObjectPool.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar!/org/apache/commons/pool2/impl/GenericObjectPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="34" selection-start="1671" selection-end="1671" vertical-scroll-proportion="-0.5168539" vertical-offset="1880" max-vertical-offset="2835">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#995#1011#0" expanded="true" />
-                <element signature="e#2446#2943#0" expanded="true" />
-                <element signature="e#2928#2929#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/RedisUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="36" selection-start="1431" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2241">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="704" column="16" selection-start="26964" selection-end="26964" vertical-scroll-proportion="0.0" vertical-offset="17610" max-vertical-offset="29862">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,7 +177,7 @@
       <file leaf-file-name="JedisPool.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3-sources.jar!/redis/clients/jedis/JedisPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="9" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="1221" max-vertical-offset="3510">
+            <state line="119" column="14" selection-start="4475" selection-end="4475" vertical-scroll-proportion="0.0" vertical-offset="2787" max-vertical-offset="3510">
               <folding />
             </state>
           </provider>
@@ -199,15 +208,6 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar!/org/apache/commons/pool2/impl/BaseGenericObjectPool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="153" column="74" selection-start="6592" selection-end="6596" vertical-scroll-proportion="0.0" vertical-offset="3081" max-vertical-offset="27432">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericObjectPoolConfig.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
@@ -272,8 +272,8 @@
         <option value="$PROJECT_DIR$/src/main/filter/dev-filter.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/woom/Test1.java" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/tools/RedisUtils.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/tools/Test1.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/tools/RedisUtils.java" />
       </list>
     </option>
   </component>
@@ -1121,12 +1121,12 @@
       <workItem from="1456629891545" duration="6519000" />
       <workItem from="1456922301652" duration="4781000" />
       <workItem from="1456969997984" duration="41000" />
-      <workItem from="1456970040234" duration="10161000" />
+      <workItem from="1456970040234" duration="10800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291988000" />
+    <option name="totallyTimeSpent" value="292627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="0" />
@@ -1217,16 +1217,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="447" column="16" selection-start="16958" selection-end="16958" vertical-scroll-proportion="-0.66339064" vertical-offset="10017" max-vertical-offset="31563" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="16" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.33169532" vertical-offset="1377" max-vertical-offset="3861" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="11" selection-start="556" selection-end="556" vertical-scroll-proportion="0.31490386" vertical-offset="193" max-vertical-offset="945" />
@@ -1468,22 +1458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3-sources.jar!/redis/clients/jedis/JedisPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="9" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="1221" max-vertical-offset="3510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="36" selection-start="1431" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2241">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="7" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="3429">
@@ -1508,14 +1482,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar!/org/apache/commons/pool2/impl/GenericObjectPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="704" column="16" selection-start="26964" selection-end="26964" vertical-scroll-proportion="0.0" vertical-offset="17691" max-vertical-offset="29862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3-sources.jar!/redis/clients/util/Pool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="14" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="4158">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3-sources.jar!/redis/clients/jedis/JedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="14" selection-start="4475" selection-end="4475" vertical-scroll-proportion="0.0" vertical-offset="2787" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="34" selection-start="1671" selection-end="1671" vertical-scroll-proportion="-0.5168539" vertical-offset="1880" max-vertical-offset="2835">
+        <state line="87" column="49" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.0" vertical-offset="1880" max-vertical-offset="2862">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#995#1011#0" expanded="true" />
-            <element signature="e#2446#2943#0" expanded="true" />
-            <element signature="e#2928#2929#0" expanded="true" />
+            <element signature="e#2446#2993#0" expanded="true" />
+            <element signature="e#2978#2979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/tools/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="26" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.65870786" vertical-offset="1529" max-vertical-offset="2241">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

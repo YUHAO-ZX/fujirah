@@ -7,10 +7,10 @@
     <groupId>Beau</groupId>
     <artifactId>Beau</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>redis</module>
-    </modules>
-    <packaging>pom</packaging>
+    <!--<modules>-->
+        <!--<module>redis</module>-->
+    <!--</modules>-->
+    <packaging>war</packaging>
     <properties>
         <aspectj-version>1.7.3</aspectj-version>
         <spring-version>4.0.3.RELEASE</spring-version>

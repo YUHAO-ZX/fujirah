@@ -7,6 +7,7 @@ import com.google.common.eventbus.EventBus;
 import com.google.common.eventbus.Subscribe;
 import org.joda.time.DateTime;
 
+import java.io.File;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -47,6 +48,19 @@ public class Test {
         return b.setScale(2,BigDecimal.ROUND_HALF_UP).doubleValue();
     }
 
+    public static void fileScan(File f){
+        boolean isD = f.isDirectory();
+        if(isD){
+            for(File son :f.listFiles()){
+                fileScan(son);
+            }
+        }else{
+            String fileName = f.getName();
+            if(fileName.endsWith(".jpeg")||fileName.endsWith(".png")||fileName.endsWith(".jpeg")||fileName.endsWith(".jpg")){
+                f.renameTo(new File("D://pics",f.getName()));
+            }
+        }
+    }
     @Subscribe
     public void test(Integer msId){
 //        try {
@@ -58,8 +72,9 @@ public class Test {
     }
 
     public static void main(String[] args) throws ParseException, InterruptedException {
-
-        System.out.println("asdfas".split(",")[0]);
+        fileScan(new File("D:\\test\\image2"));
+//        fileScan(new File("D://pics"));
+//        System.out.println("asdfas".split(",")[0]);
 //        Map<String,Long> supp = new HashMap<String, Long>();
 //        supp.put("m1",4L);
 //        supp.put("m3",4L);

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $("#submit").on("click",function(){
         var fcode = $("#fcode").val();
         var time = $("#time").val();

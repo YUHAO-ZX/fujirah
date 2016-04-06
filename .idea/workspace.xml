@@ -183,10 +183,19 @@
       <file leaf-file-name="GameController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="49" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.37931034" vertical-offset="1173" max-vertical-offset="1863">
+            <state line="54" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.4679803" vertical-offset="1173" max-vertical-offset="1836">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationObjectSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/ApplicationObjectSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="139" column="0" selection-start="5531" selection-end="5531" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="3942">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1501,12 +1510,12 @@
       <workItem from="1456969997984" duration="41000" />
       <workItem from="1456970040234" duration="11154000" />
       <workItem from="1459831930871" duration="4368000" />
-      <workItem from="1459858817440" duration="18195000" />
+      <workItem from="1459858817440" duration="19431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315544000" />
+    <option name="totallyTimeSpent" value="316780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1947,13 +1956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/ApplicationObjectSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="36" selection-start="5476" selection-end="5476" vertical-scroll-proportion="0.0" vertical-offset="3075" max-vertical-offset="3942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/common.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
@@ -2061,9 +2063,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/ApplicationObjectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="5531" selection-end="5531" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="3942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="49" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.37931034" vertical-offset="1173" max-vertical-offset="1863">
+        <state line="54" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.4679803" vertical-offset="1173" max-vertical-offset="1836">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

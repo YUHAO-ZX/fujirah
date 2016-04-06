@@ -22,12 +22,12 @@ import java.util.concurrent.ConcurrentHashMap;
 public class GameController {
     private final static Logger logger = LoggerFactory.getLogger(GameController.class);
 
-    public static Map<String,Boolean> coolName;
+    public static Map<Integer,Boolean> coolName;
     public static String[] names = new String[]{"牛逼的算法工程师","酷炫的前端攻城狮"};
     static{
-        coolName = new ConcurrentHashMap<String, Boolean>();
-        coolName.put("牛逼的算法工程师",true);
-        coolName.put("酷炫的前端攻城狮",true);
+        coolName = new ConcurrentHashMap<Integer, Boolean>();
+        coolName.put(0,true);
+        coolName.put(1,true);
     }
     @RequestMapping(value="/login" ,produces="application/json")
     @ResponseBody
@@ -35,23 +35,22 @@ public class GameController {
         try{
             Cookie[] cookies = request.getCookies();
             String randomName = null;
+            Integer row = -1;
             if(null == cookies || cookies.length <= 0){
-                for(String name : names){
-                    if(coolName.get(name)){
-                        coolName.put("name",false);
-                        randomName = name;
+                for(int i=0;i<names.length;i++){
+                    if(coolName.get(i)){
+                        coolName.put(i,false);
+                        randomName = names[i];
+                        row = i;
                         break;
                     }
                 }
-                if(null == randomName){
-                    randomName = "悲剧的没名字的";
-                }
-                Cookie cookie = new Cookie("loginName",randomName);
+                Cookie cookie = new Cookie("loginName",row+"");
                 cookie.setMaxAge(Integer.MAX_VALUE);
                 response.addCookie(cookie);
             }else{
-                logger.warn("loginName="+cookies[0].getValue());
-                randomName = cookies[0].getValue();
+                logger.warn("loginName="+Integer.valueOf(cookies[0].getValue()));
+                randomName = names[Integer.valueOf(cookies[0].getValue())];
             }
 
             new JsonBack(response).

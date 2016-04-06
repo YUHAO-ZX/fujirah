@@ -10,6 +10,7 @@ import web.tools.JsonBack;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.UnsupportedEncodingException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -22,11 +23,15 @@ public class GameController {
     private final static Logger logger = LoggerFactory.getLogger(GameController.class);
 
     public static Map<Integer,Boolean> coolName;
-    public static String[] names = new String[]{"niubiliti","酷炫的前端攻城狮"};
+    public static String[] names = new String[]{"牛逼的算法工程师","酷炫的前端攻城狮"};
     static{
         coolName = new ConcurrentHashMap<Integer, Boolean>();
         coolName.put(0,true);
         coolName.put(1,true);
+    }
+
+    public static void main(String[] args) throws UnsupportedEncodingException {
+        System.out.println(new String("酷炫的前端攻城狮".getBytes(),"utf-8"));
     }
     @RequestMapping(value="/login" ,produces="application/json")
     @ResponseBody
@@ -51,11 +56,11 @@ public class GameController {
                 logger.warn("loginName="+Integer.valueOf(cookies[0].getValue()));
                 randomName = names[Integer.valueOf(cookies[0].getValue())];
 
-                logger.warn(new String(randomName.getBytes("gbk"),"utf-8"));
+                logger.warn(new String(randomName.getBytes(),"utf-8"));
             }
 
             new JsonBack(response).
-                    put("loginName", new String(randomName.getBytes("gbk"),"utf-8")).send();
+                    put("loginName", randomName).send();
         }catch (Exception e){
             logger.error("[RuleController-getList] ERROR "+e);
         }

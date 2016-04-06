@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    AjaxJson("../../handler/game/login",param,function(data){
+    AjaxJson("../../handler/game/login",{},function(data){
         var dat = data.data.loginName;
         alert(dat)
     });

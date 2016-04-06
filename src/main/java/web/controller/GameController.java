@@ -10,7 +10,6 @@ import web.tools.JsonBack;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -23,7 +22,7 @@ public class GameController {
     private final static Logger logger = LoggerFactory.getLogger(GameController.class);
 
     public static Map<Integer,Boolean> coolName;
-    public static String[] names = new String[]{"牛逼的算法工程师","酷炫的前端攻城狮"};
+    public static String[] names = new String[]{"niubiliti","酷炫的前端攻城狮"};
     static{
         coolName = new ConcurrentHashMap<Integer, Boolean>();
         coolName.put(0,true);
@@ -51,6 +50,7 @@ public class GameController {
             }else{
                 logger.warn("loginName="+Integer.valueOf(cookies[0].getValue()));
                 randomName = names[Integer.valueOf(cookies[0].getValue())];
+                logger.warn(randomName);
             }
 
             new JsonBack(response).

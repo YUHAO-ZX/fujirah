@@ -131,22 +131,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java" line="35" class="web.controller.GameController" package="web.controller">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/ApplicationObjectSupport.java" line="139" class="org.springframework.context.support.ApplicationObjectSupport" package="org.springframework.context.support">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java" line="34" class="web.controller.GameController" package="web.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -174,7 +159,7 @@
       <file leaf-file-name="catcher.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/catcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="2781">
+            <state line="4" column="27" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2781">
               <folding />
             </state>
           </provider>
@@ -183,19 +168,10 @@
       <file leaf-file-name="GameController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.4679803" vertical-offset="1173" max-vertical-offset="1836">
+            <state line="24" column="61" selection-start="790" selection-end="790" vertical-scroll-proportion="0.38215104" vertical-offset="314" max-vertical-offset="1836">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationObjectSupport.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/ApplicationObjectSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="0" selection-start="5531" selection-end="5531" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="3942">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1510,12 +1486,12 @@
       <workItem from="1456969997984" duration="41000" />
       <workItem from="1456970040234" duration="11154000" />
       <workItem from="1459831930871" duration="4368000" />
-      <workItem from="1459858817440" duration="19431000" />
+      <workItem from="1459858817440" duration="21011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316780000" />
+    <option name="totallyTimeSpent" value="318360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1530,7 +1506,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36514983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2058,21 +2034,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/catcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="2781">
+        <state line="4" column="27" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2781">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar!/org/springframework/context/support/ApplicationObjectSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="5531" selection-end="5531" vertical-scroll-proportion="0.0" vertical-offset="3010" max-vertical-offset="3942">
+        <state line="139" column="0" selection-start="5531" selection-end="5531" vertical-scroll-proportion="0.23226544" vertical-offset="3010" max-vertical-offset="3942">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.4679803" vertical-offset="1173" max-vertical-offset="1836">
+        <state line="24" column="61" selection-start="790" selection-end="790" vertical-scroll-proportion="0.38215104" vertical-offset="314" max-vertical-offset="1836">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

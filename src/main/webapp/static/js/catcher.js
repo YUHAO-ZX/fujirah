@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+    AjaxJson("../../handler/game/login",param,function(data){
+        var dat = data.data.loginName;
+        alert(dat)
+    });
+
     $("#submit").on("click",function(){
         var fcode = $("#fcode").val();
         var time = $("#time").val();

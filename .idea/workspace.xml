@@ -156,11 +156,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="catcher.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="catcher.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/catcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="446" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="2646">
+            <state line="4" column="18" selection-start="150" selection-end="150" vertical-scroll-proportion="0.123569794" vertical-offset="0" max-vertical-offset="2781">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="33" selection-start="1017" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="5211">
+              <folding>
+                <element signature="e#2286#2308#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,8 +179,73 @@
       <file leaf-file-name="RuleController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/RuleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="8" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1790" max-vertical-offset="4995">
+            <state line="107" column="81" selection-start="4154" selection-end="4154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4995">
+              <folding>
+                <element signature="e#1789#1811#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cookie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0-sources.jar!/javax/servlet/http/Cookie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="220" column="16" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="5014" max-vertical-offset="10260">
+              <folding>
+                <element signature="e#0#15001#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6674#6675#0" expanded="false" />
+                <element signature="e#6707#6708#0" expanded="false" />
+                <element signature="e#7009#7010#0" expanded="false" />
+                <element signature="e#7039#7040#0" expanded="false" />
+                <element signature="e#8119#8120#0" expanded="false" />
+                <element signature="e#8148#8149#0" expanded="false" />
+                <element signature="e#9384#9385#0" expanded="false" />
+                <element signature="e#9413#9414#0" expanded="false" />
+                <element signature="e#10128#10129#0" expanded="false" />
+                <element signature="e#10154#10155#0" expanded="false" />
+                <element signature="e#10497#10498#0" expanded="false" />
+                <element signature="e#10524#10525#0" expanded="false" />
+                <element signature="e#11007#11008#0" expanded="false" />
+                <element signature="e#11036#11037#0" expanded="false" />
+                <element signature="e#11423#11424#0" expanded="false" />
+                <element signature="e#11452#11453#0" expanded="false" />
+                <element signature="e#11661#11662#0" expanded="false" />
+                <element signature="e#11688#11689#0" expanded="false" />
+                <element signature="e#12296#12297#0" expanded="false" />
+                <element signature="e#12328#12329#0" expanded="false" />
+                <element signature="e#12546#12547#0" expanded="false" />
+                <element signature="e#12574#12575#0" expanded="false" />
+                <element signature="e#13079#13080#0" expanded="false" />
+                <element signature="e#13109#13110#0" expanded="false" />
+                <element signature="e#13689#13690#0" expanded="false" />
+                <element signature="e#13716#13717#0" expanded="false" />
+                <element signature="e#14794#14795#0" expanded="false" />
+                <element signature="e#14825#14826#0" expanded="false" />
+                <element signature="e#14956#14957#0" expanded="false" />
+                <element signature="e#14996#14997#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cookie.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0.jar!/javax/servlet/http/Cookie.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="16" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1755">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServletRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="13" selection-start="4141" selection-end="4141" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="13797">
+              <folding>
+                <element signature="e#0#19869#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,10 +268,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dev-filter.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dev-filter.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/filter/dev-filter.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.11637931" vertical-offset="0" max-vertical-offset="567">
+            <state line="2" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
               <folding />
             </state>
           </provider>
@@ -205,7 +281,14 @@
         <entry file="jar://D:/soft/java/src.zip!/java/io/File.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1384" column="19" selection-start="58285" selection-end="58285" vertical-scroll-proportion="0.0" vertical-offset="35562" max-vertical-offset="59670">
-              <folding />
+              <folding>
+                <element signature="e#0#95358#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#8262#8263#0" expanded="false" />
+                <element signature="e#8297#8298#0" expanded="false" />
+                <element signature="e#21135#21136#0" expanded="false" />
+                <element signature="e#21162#21163#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,7 +303,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/static/html/feeDetail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/catcher_left.js" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/EmotionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/web/dao/EmotionDao.java" />
@@ -267,10 +349,11 @@
         <option value="$PROJECT_DIR$/redis/src/main/java/tools/Test1.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/woom/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/catcher.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/html/catcher.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/woom/RestFulTest.java" />
         <option value="$PROJECT_DIR$/src/main/filter/dev-filter.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/web/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/catcher.js" />
       </list>
     </option>
   </component>
@@ -282,10 +365,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="100" />
-    <option name="width" value="1820" />
-    <option name="height" value="931" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -717,6 +800,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="web.controller" />
       <recent name="com.woom.tools" />
       <recent name="web.dao" />
     </key>
@@ -1333,15 +1417,15 @@
       <workItem from="1456969997984" duration="41000" />
       <workItem from="1456970040234" duration="11154000" />
       <workItem from="1459831930871" duration="4368000" />
-      <workItem from="1459858817440" duration="6725000" />
+      <workItem from="1459858817440" duration="10357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304074000" />
+    <option name="totallyTimeSpent" value="307706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="100" width="1820" height="931" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1352,7 +1436,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36726806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13207547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1365,7 +1449,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21055618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19755058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38501972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1376,31 +1460,31 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22310969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25749168" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19755058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38501972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1927878" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5649279" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13207547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325887" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1429,31 +1513,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-sources.jar!/org/apache/lucene/document/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="0" selection-start="8799" selection-end="8799" vertical-scroll-proportion="0.0" vertical-offset="6093" max-vertical-offset="28971" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-sources.jar!/org/apache/lucene/document/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="7" selection-start="2712" selection-end="2712" vertical-scroll-proportion="0.0" vertical-offset="1341" max-vertical-offset="6777" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-sources.jar!/org/apache/lucene/index/DocumentsWriterPerThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="29" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="6642" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-sources.jar!/org/apache/lucene/index/DocumentsWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="449" column="24" selection-start="16942" selection-end="16942" vertical-scroll-proportion="0.0" vertical-offset="11474" max-vertical-offset="19656" />
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/java/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="22" selection-start="5495" selection-end="5495" vertical-scroll-proportion="0.0" vertical-offset="4481" max-vertical-offset="8667" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-sources.jar!/org/apache/lucene/index/DocumentsWriterPerThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="233" column="29" selection-start="9304" selection-end="9304" vertical-scroll-proportion="0.0" vertical-offset="5349" max-vertical-offset="15093" />
@@ -1628,7 +1687,14 @@
     <entry file="jar://D:/soft/java/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1384" column="19" selection-start="58285" selection-end="58285" vertical-scroll-proportion="0.0" vertical-offset="35562" max-vertical-offset="59670">
-          <folding />
+          <folding>
+            <element signature="e#0#95358#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8262#8263#0" expanded="false" />
+            <element signature="e#8297#8298#0" expanded="false" />
+            <element signature="e#21135#21136#0" expanded="false" />
+            <element signature="e#21162#21163#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1695,23 +1761,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/catcher.js">
+    <entry file="file://$PROJECT_DIR$/src/main/filter/dev-filter.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="446" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="2646">
+        <state line="2" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="654" selection-end="662" vertical-scroll-proportion="-9.72" vertical-offset="216" max-vertical-offset="2133">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="13" selection-start="4141" selection-end="4141" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="13797">
+          <folding>
+            <element signature="e#0#19869#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0.jar!/javax/servlet/http/Cookie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="16" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0-sources.jar!/javax/servlet/http/Cookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="16" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="4528" max-vertical-offset="10260">
+          <folding>
+            <element signature="e#0#15001#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6674#6675#0" expanded="false" />
+            <element signature="e#6707#6708#0" expanded="false" />
+            <element signature="e#7009#7010#0" expanded="false" />
+            <element signature="e#7039#7040#0" expanded="false" />
+            <element signature="e#8119#8120#0" expanded="false" />
+            <element signature="e#8148#8149#0" expanded="false" />
+            <element signature="e#9384#9385#0" expanded="false" />
+            <element signature="e#9413#9414#0" expanded="false" />
+            <element signature="e#10128#10129#0" expanded="false" />
+            <element signature="e#10154#10155#0" expanded="false" />
+            <element signature="e#10497#10498#0" expanded="false" />
+            <element signature="e#10524#10525#0" expanded="false" />
+            <element signature="e#11007#11008#0" expanded="false" />
+            <element signature="e#11036#11037#0" expanded="false" />
+            <element signature="e#11423#11424#0" expanded="false" />
+            <element signature="e#11452#11453#0" expanded="false" />
+            <element signature="e#11661#11662#0" expanded="false" />
+            <element signature="e#11688#11689#0" expanded="false" />
+            <element signature="e#12296#12297#0" expanded="false" />
+            <element signature="e#12328#12329#0" expanded="false" />
+            <element signature="e#12546#12547#0" expanded="false" />
+            <element signature="e#12574#12575#0" expanded="false" />
+            <element signature="e#13079#13080#0" expanded="false" />
+            <element signature="e#13109#13110#0" expanded="false" />
+            <element signature="e#13689#13690#0" expanded="false" />
+            <element signature="e#13716#13717#0" expanded="false" />
+            <element signature="e#14794#14795#0" expanded="false" />
+            <element signature="e#14825#14826#0" expanded="false" />
+            <element signature="e#14956#14957#0" expanded="false" />
+            <element signature="e#14996#14997#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/RuleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="8" selection-start="3139" selection-end="3139" vertical-scroll-proportion="0.0" vertical-offset="1790" max-vertical-offset="4995">
-          <folding />
+        <state line="107" column="81" selection-start="4154" selection-end="4154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4995">
+          <folding>
+            <element signature="e#1789#1811#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/filter/dev-filter.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.11637931" vertical-offset="0" max-vertical-offset="567">
+        <state line="31" column="33" selection-start="1017" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="5211">
+          <folding>
+            <element signature="e#2286#2308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/catcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="150" selection-end="150" vertical-scroll-proportion="0.123569794" vertical-offset="0" max-vertical-offset="2781">
           <folding />
         </state>
       </provider>

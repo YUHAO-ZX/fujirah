@@ -13,6 +13,8 @@
     <!--controller-->
     <context:component-scan base-package="web.controller"/>
 
+
+
     <!--manager-->
     <context:component-scan base-package="web.manager"/>
 

@@ -60,7 +60,7 @@ public class GameController {
             }
 
             new JsonBack(response).
-                    put("loginName", randomName).send();
+                    put("loginName", new String(randomName.getBytes(),"utf-8")).send();
         }catch (Exception e){
             logger.error("[RuleController-getList] ERROR "+e);
         }

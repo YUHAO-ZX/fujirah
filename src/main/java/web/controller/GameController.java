@@ -55,7 +55,6 @@ public class GameController {
             }else{
                 logger.warn("loginName="+Integer.valueOf(cookies[0].getValue()));
                 randomName = names[Integer.valueOf(cookies[0].getValue())];
-
                 logger.warn(new String(randomName.getBytes(),"utf-8"));
             }
 

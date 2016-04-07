@@ -23,7 +23,7 @@ public class GameController {
     private final static Logger logger = LoggerFactory.getLogger(GameController.class);
 
     public static Map<Integer,Boolean> coolName;
-    public static String[] names = new String[]{"牛逼的算法工程师","酷炫的前端攻城狮"};
+    public static String[] names;
     static{
         coolName = new ConcurrentHashMap<Integer, Boolean>();
         coolName.put(0,true);
@@ -37,6 +37,10 @@ public class GameController {
     @ResponseBody
     public void getList(HttpServletResponse response,HttpServletRequest request){
         try{
+            if(names == null){
+                names = new String[]{new String("牛逼的算法工程师".getBytes(),"utf-8"),
+                        new String("酷炫的前端攻城狮".getBytes(),"utf-8")};
+            }
             Cookie[] cookies = request.getCookies();
             String randomName = null;
             Integer row = -1;
@@ -55,11 +59,11 @@ public class GameController {
             }else{
                 logger.warn("loginName="+Integer.valueOf(cookies[0].getValue()));
                 randomName = names[Integer.valueOf(cookies[0].getValue())];
-                logger.warn(new String(randomName.getBytes(),"utf-8"));
+                logger.warn(randomName);
             }
 
             new JsonBack(response).
-                    put("loginName", new String(randomName.getBytes(),"utf-8")).send();
+                    put("loginName", randomName).send();
         }catch (Exception e){
             logger.error("[RuleController-getList] ERROR "+e);
         }

@@ -59,11 +59,15 @@ public class GameController {
             }else{
                 logger.warn("loginName="+Integer.valueOf(cookies[0].getValue()));
                 randomName = names[Integer.valueOf(cookies[0].getValue())];
+                byte[] b = randomName.getBytes();
+                for(int i=0;i<b.length;i++){
+                    System.out.print(b[i]);
+                }
                 logger.warn(randomName);
             }
 
             new JsonBack(response).
-                    put("loginName", randomName).send();
+                    put("loginName", randomName.getBytes()).send();
         }catch (Exception e){
             logger.error("[RuleController-getList] ERROR "+e);
         }

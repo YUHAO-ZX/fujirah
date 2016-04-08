@@ -73,5 +73,12 @@
 
 
 <script type="text/javascript">
+    $(document).ready(function(){
+
+        AjaxJson("../../handler/game/login",{},function(data){
+            var dat = data.data.loginName;
+            alert("你酷炫的名字:"+dat)
+        });
+    });
 </script>
 </html>

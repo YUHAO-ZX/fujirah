@@ -1,10 +1,5 @@
 $(document).ready(function(){
 
-    AjaxJson("../../handler/game/login",{},function(data){
-        var dat = data.data.loginName;
-        alert("你酷炫的名字:"+dat)
-    });
-
     $("#submit").on("click",function(){
         var fcode = $("#fcode").val();
         var time = $("#time").val();

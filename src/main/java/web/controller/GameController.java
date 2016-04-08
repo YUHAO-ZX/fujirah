@@ -33,7 +33,7 @@ public class GameController {
     public static void main(String[] args) throws UnsupportedEncodingException {
         System.out.println(new String("酷炫的前端攻城狮".getBytes(),"utf-8"));
     }
-    @RequestMapping(value="/login" ,produces="application/json")
+    @RequestMapping(value="/login" ,produces="application/json;charset=UTF-8")
     @ResponseBody
     public void getList(HttpServletResponse response,HttpServletRequest request){
         try{

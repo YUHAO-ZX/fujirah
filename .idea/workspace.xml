@@ -186,10 +186,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="74" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.5359375" vertical-offset="278" max-vertical-offset="1863">
+            <state line="69" column="22" selection-start="2566" selection-end="2566" vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="1863">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonBack.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/tools/JsonBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.6703125" vertical-offset="354" max-vertical-offset="1890">
               <folding />
             </state>
           </provider>
@@ -240,15 +249,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Charset.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/soft/java/src.zip!/java/nio/charset/Charset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="270" column="22" selection-start="11685" selection-end="11685" vertical-scroll-proportion="0.0" vertical-offset="7290" max-vertical-offset="24921">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -259,7 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/EmotionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/web/dao/EmotionDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/ruleList.js" />
         <option value="$PROJECT_DIR$/src/main/java/web/manager/StocManager.java" />
@@ -310,6 +309,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/html/catcher.html" />
         <option value="$PROJECT_DIR$/src/main/java/web/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/tools/JsonBack.java" />
       </list>
     </option>
   </component>
@@ -1569,12 +1569,12 @@
       <workItem from="1459831930871" duration="4368000" />
       <workItem from="1459858817440" duration="25050000" />
       <workItem from="1459994288645" duration="1854000" />
-      <workItem from="1460028458083" duration="6450000" />
+      <workItem from="1460028458083" duration="7038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330703000" />
+    <option name="totallyTimeSpent" value="331291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="16" width="1600" height="844" extended-state="0" />
@@ -1635,11 +1635,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/study/lucene/LuceneSnap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3.jar!/redis/clients/jedis/Jedis.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="11" selection-start="618" selection-end="618" vertical-scroll-proportion="-9.6" vertical-offset="30" max-vertical-offset="14661" />
@@ -1931,7 +1926,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="74" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.5359375" vertical-offset="278" max-vertical-offset="1863">
+        <state line="69" column="22" selection-start="2566" selection-end="2566" vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="1863">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/tools/JsonBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.6703125" vertical-offset="354" max-vertical-offset="1890">
           <folding />
         </state>
       </provider>

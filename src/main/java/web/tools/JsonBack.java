@@ -33,6 +33,7 @@ public class JsonBack {
             e.printStackTrace();
         }
         response.setContentType("application/json;charset=UTF-8");
+        response.setCharacterEncoding("UTF-8");
     }
 
     public JsonBack put(String key,Object value){

@@ -67,7 +67,7 @@ public class GameController {
             }
 
             new JsonBack(response).
-                    put("loginName", randomName.getBytes()).send();
+                    put("loginName", randomName).send();
         }catch (Exception e){
             logger.error("[RuleController-getList] ERROR "+e);
         }
